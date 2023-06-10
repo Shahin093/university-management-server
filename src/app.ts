@@ -1,7 +1,7 @@
 import cors from 'cors'
 import express, { Application } from 'express'
 import globalErrorHandler from './app/modules/users/middleware/globalErrorHandler'
-import userRouter from './app/modules/users/users.route'
+import { UserRoutes } from './app/modules/users/user.route'
 const app: Application = express()
 
 app.use(cors())
@@ -10,11 +10,13 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use('/api/v1/users/', userRouter)
+app.use('/api/v1/users/', UserRoutes)
 // testing
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   res.send('Working Successfully')
-//   // throw new ApiError(400, 'ore baba error')
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   console.log(x)
+//   // Promise.reject(new Error('Unhandled Promise Rejection.'))
+//   //   res.send('Working Successfully')
+//   //   throw new ApiError(400, 'ore baba error')
 //   // next('Ore babure koto boro error') // Error
 // })
 
