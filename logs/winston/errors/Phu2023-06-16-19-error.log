@@ -1,0 +1,35 @@
+{
+  stringValue: '"648995e285253245040054f"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '648995e285253245040054f',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T13:24:51.712Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T13:26:44.025Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T13:34:12.775Z'
+}

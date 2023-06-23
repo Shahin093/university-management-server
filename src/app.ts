@@ -1,7 +1,8 @@
 import cors from 'cors';
-import express, { Application } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import globalErrorHandler from './app/modules/users/middleware/globalErrorHandler';
 import routes from './app/routes';
+import httpStatus from 'http-status';
 const app: Application = express();
 
 app.use(cors());
@@ -24,6 +25,28 @@ app.use('/api/v1/', routes);
 //   // next('Ore babure koto boro error') // Error
 // })
 
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Not Found',
+    errorMassages: [
+      {
+        path: req.originalUrl,
+        message: 'Api Not Found',
+      },
+    ],
+  });
+  next();
+});
+
 // global error handler
 app.use(globalErrorHandler);
+
+// const testIds = async (): Promise<void> => {
+//   const testId = await generateFaculty();
+//   console.log(testId);
+// };
+
+// testIds();
+
 export default app;

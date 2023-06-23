@@ -1,0 +1,71 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:20:50.761Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:28:18.187Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:32:04.210Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '0160000000' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:33:01.068Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{ level: 'error', label: 'PH', timestamp: '2023-06-18T13:34:41.738Z' }
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: null },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:40:44.819Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:41:50.249Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T13:56:01.161Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

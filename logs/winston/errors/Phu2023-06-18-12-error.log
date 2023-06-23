@@ -1,0 +1,49 @@
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T06:08:48.268Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T06:09:17.074Z'
+}
+{
+  errors: {
+    profileImage: ValidatorError: Path `profileImage` is required.
+        at validate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `profileImage` is required.',
+        type: 'required',
+        path: 'profileImage',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'profileImage',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Student validation failed',
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T06:21:47.477Z'
+}
+{ level: 'error', label: 'PH', timestamp: '2023-06-18T06:58:10.315Z' }
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'user@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T06:59:15.015Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

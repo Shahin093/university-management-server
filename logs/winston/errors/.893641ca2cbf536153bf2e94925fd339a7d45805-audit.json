@@ -1,125 +1,305 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\.893641ca2cbf536153bf2e94925fd339a7d45805-audit.json",
+  "files": [
+    {
+      "date": 1686322595314,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-20-error.log",
+      "hash": "0677a80a147b7e002c6b1d20593b740e60734c34ab5da61963a0af8cf269fd54"
     },
-    "auditLog": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\.893641ca2cbf536153bf2e94925fd339a7d45805-audit.json",
-    "files": [
-        {
-            "date": 1686068753226,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-06-22-error.log",
-            "hash": "f8574c81b4735ccd087cf48e739cdae2a90731ea8e601aafef968c49eb24a1bd"
-        },
-        {
-            "date": 1686145815931,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-07-19-error.log",
-            "hash": "b07f70018b7a0f0d5b4e2c292e2d6ee6f4b381c104f2769912a84c5722ccb7ee"
-        },
-        {
-            "date": 1686146818463,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-07-20-error.log",
-            "hash": "37d0e0af0e2213961e8a6f342088978767a088bb683a3c21a72dbb30ff121224"
-        },
-        {
-            "date": 1686150072850,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-07-21-error.log",
-            "hash": "7137f63e1df7ac210288c34380b4eacf435ab102011964d94efac589d3fba741"
-        },
-        {
-            "date": 1686155041030,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-07-22-error.log",
-            "hash": "9ab388a6348b334de6153538c6a0c681436f6aee4bb54f9a8e402eb0bd366589"
-        },
-        {
-            "date": 1686158503910,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-07-23-error.log",
-            "hash": "cbb9a354fd1d3febfd5d7a79b247a3c706cb2b48ab6549656238b1da5a665c96"
-        },
-        {
-            "date": 1686161759648,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-08-00-error.log",
-            "hash": "6fd250cf5feaa34538813cad8c69a5f97448bf8c2b9210b0334d7008ec61e349"
-        },
-        {
-            "date": 1686322595314,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-20-error.log",
-            "hash": "0677a80a147b7e002c6b1d20593b740e60734c34ab5da61963a0af8cf269fd54"
-        },
-        {
-            "date": 1686322880460,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-21-error.log",
-            "hash": "cf1e350d6495042a1c002a274db3aea08581bff995e4a0ef5e3b769122091daa"
-        },
-        {
-            "date": 1686328891933,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-22-error.log",
-            "hash": "90720b10aae5a872040995b42cda52d53cea25404b9a7f0209236269ae0bfec9"
-        },
-        {
-            "date": 1686330062083,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-23-error.log",
-            "hash": "b99a0601976af88ce1d0784a04059a219b30c5f038c0b560019eb9f49ad4fcac"
-        },
-        {
-            "date": 1686390675119,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-15-error.log",
-            "hash": "f8687ba4c96a5e610dbacfa467dbfa17662e18edd5883f18af012c0a1a265c07"
-        },
-        {
-            "date": 1686391231809,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-16-error.log",
-            "hash": "7d15fd1934032475b1cb59b901feaea4f67710a913398e5ee1d09f2be50c64fa"
-        },
-        {
-            "date": 1686402944404,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-19-error.log",
-            "hash": "22a0e838e86dbd239c76e56cb76a778460902d9f3d0975ef23831e6a184aa3d9"
-        },
-        {
-            "date": 1686405758301,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-20-error.log",
-            "hash": "a4b411518167b98cb23b32842aced0031111ccf71cfaf7d26292f2cf10251814"
-        },
-        {
-            "date": 1686456349966,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-10-error.log",
-            "hash": "0236b7624c846c27edbf80e4e815dbfb49400cb22baadb2d7d0e51b2aae4bb9f"
-        },
-        {
-            "date": 1686459894425,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-11-error.log",
-            "hash": "b428c7e787779957e21269652f8830d959459802790c7ae95f75ed6c63b055d0"
-        },
-        {
-            "date": 1686474112598,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-15-error.log",
-            "hash": "0978b4d67b12e6e5e9a298c191f29f67b012baa69261e1f3037842c5d1ed27db"
-        },
-        {
-            "date": 1686477608668,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-16-error.log",
-            "hash": "534b4d8cd819a6915e463ea1bbbbcef3a3488ea856a162be0c54ce503c42c191"
-        },
-        {
-            "date": 1686490533384,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-19-error.log",
-            "hash": "4c991738c68c70e3314c7767878c1db963f7b20df21974889f5605fce8f3f6a4"
-        },
-        {
-            "date": 1686496391486,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-21-error.log",
-            "hash": "c1d3ac6d58c67e05b3d6bfdaeedd9922074257b2dfd34abd6691e85ca284f8e9"
-        },
-        {
-            "date": 1686499347849,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-22-error.log",
-            "hash": "2b248a9641821b4cfb3a07d2edefd371466edd3ecb146fd15512edef98bc89e4"
-        },
-        {
-            "date": 1686503241827,
-            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-23-error.log",
-            "hash": "bc4865f06ff36a450715a04db4bed22762bab1762267186d33811bc84de57582"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686322880460,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-21-error.log",
+      "hash": "cf1e350d6495042a1c002a274db3aea08581bff995e4a0ef5e3b769122091daa"
+    },
+    {
+      "date": 1686328891933,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-22-error.log",
+      "hash": "90720b10aae5a872040995b42cda52d53cea25404b9a7f0209236269ae0bfec9"
+    },
+    {
+      "date": 1686330062083,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-09-23-error.log",
+      "hash": "b99a0601976af88ce1d0784a04059a219b30c5f038c0b560019eb9f49ad4fcac"
+    },
+    {
+      "date": 1686390675119,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-15-error.log",
+      "hash": "f8687ba4c96a5e610dbacfa467dbfa17662e18edd5883f18af012c0a1a265c07"
+    },
+    {
+      "date": 1686391231809,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-16-error.log",
+      "hash": "7d15fd1934032475b1cb59b901feaea4f67710a913398e5ee1d09f2be50c64fa"
+    },
+    {
+      "date": 1686402944404,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-19-error.log",
+      "hash": "22a0e838e86dbd239c76e56cb76a778460902d9f3d0975ef23831e6a184aa3d9"
+    },
+    {
+      "date": 1686405758301,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-10-20-error.log",
+      "hash": "a4b411518167b98cb23b32842aced0031111ccf71cfaf7d26292f2cf10251814"
+    },
+    {
+      "date": 1686456349966,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-10-error.log",
+      "hash": "0236b7624c846c27edbf80e4e815dbfb49400cb22baadb2d7d0e51b2aae4bb9f"
+    },
+    {
+      "date": 1686459894425,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-11-error.log",
+      "hash": "b428c7e787779957e21269652f8830d959459802790c7ae95f75ed6c63b055d0"
+    },
+    {
+      "date": 1686474112598,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-15-error.log",
+      "hash": "0978b4d67b12e6e5e9a298c191f29f67b012baa69261e1f3037842c5d1ed27db"
+    },
+    {
+      "date": 1686477608668,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-16-error.log",
+      "hash": "534b4d8cd819a6915e463ea1bbbbcef3a3488ea856a162be0c54ce503c42c191"
+    },
+    {
+      "date": 1686490533384,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-19-error.log",
+      "hash": "4c991738c68c70e3314c7767878c1db963f7b20df21974889f5605fce8f3f6a4"
+    },
+    {
+      "date": 1686496391486,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-21-error.log",
+      "hash": "c1d3ac6d58c67e05b3d6bfdaeedd9922074257b2dfd34abd6691e85ca284f8e9"
+    },
+    {
+      "date": 1686499347849,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-22-error.log",
+      "hash": "2b248a9641821b4cfb3a07d2edefd371466edd3ecb146fd15512edef98bc89e4"
+    },
+    {
+      "date": 1686503241827,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-11-23-error.log",
+      "hash": "bc4865f06ff36a450715a04db4bed22762bab1762267186d33811bc84de57582"
+    },
+    {
+      "date": 1686644499779,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-13-14-error.log",
+      "hash": "a21892080f1ae65fb8d4d67f8f93745de9de6006069f9c7a9b26494275658bd3"
+    },
+    {
+      "date": 1686647155656,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-13-15-error.log",
+      "hash": "f302278264e1b79739b3430489dccb01a70e497c2399ad99599303cc40cf7bd3"
+    },
+    {
+      "date": 1686652855492,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-13-16-error.log",
+      "hash": "df52f59fee958c5fa2fbb09cec17eb7fae6c0642d391b0db72d7b30d47eaaf35"
+    },
+    {
+      "date": 1686662887231,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-13-19-error.log",
+      "hash": "bd8d8129e12f79a249b8fc7c354f1db7a04e8feaf89cd4ed855f446384c9b7d5"
+    },
+    {
+      "date": 1686732839640,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-14-14-error.log",
+      "hash": "7bdf32400c6103ac8a90ee81670f2ffd458f8cd25400724a5da2dd3060b6ce88"
+    },
+    {
+      "date": 1686733430689,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-14-15-error.log",
+      "hash": "939e45d1dd1a1f95b61ff6d3be112f12382a415bd161fd57521d0758853d4d1d"
+    },
+    {
+      "date": 1686737488499,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-14-16-error.log",
+      "hash": "2d90bfd912a4ec5b59a2ba5051aa69ad2b21414da70ad2be89a71be940731dfc"
+    },
+    {
+      "date": 1686801398088,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-15-09-error.log",
+      "hash": "c42c2577c66542773520346ec9db76aae5b9ba58ffce04a43cf4eec20e142133"
+    },
+    {
+      "date": 1686801702321,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-15-10-error.log",
+      "hash": "42bb589e0f027cfe62ebf9c31bf64a6e62d00629713fd2a36d72f45c8542c68d"
+    },
+    {
+      "date": 1686823365376,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-15-16-error.log",
+      "hash": "afbd0a186d3b844acedb34bd648d517b2907f9f5e5c94f548dd01cd299d8174e"
+    },
+    {
+      "date": 1686838303721,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-15-20-error.log",
+      "hash": "b2180ae159f162a09d3bbfc13f9b925b70e7c6821260a5d8c291a5486659fb8c"
+    },
+    {
+      "date": 1686843162770,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-15-21-error.log",
+      "hash": "97e7c90ee81a8d9a56c67b08d09a6860741fd26fef984b5d5b444d7bb7f8f2a0"
+    },
+    {
+      "date": 1686844827075,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-15-22-error.log",
+      "hash": "e20a971b2a4009dd0214d086b064381a1c63a42ee23d3658fc734129706ddadd"
+    },
+    {
+      "date": 1686888268400,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-10-error.log",
+      "hash": "4e8a6c88cdfd70812fa6bf9ab3085739a078334d9729beabdb02bcf8c11a5d77"
+    },
+    {
+      "date": 1686891669404,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-11-error.log",
+      "hash": "bfd56a89c52125ae878cfe6abda3d8a6482d75939cc97606901141ebbb838bc1"
+    },
+    {
+      "date": 1686908236898,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-15-error.log",
+      "hash": "0edd0f67bc1c88a4c587e3097038acd619eceb1f07efab13be9f749ecbb1633b"
+    },
+    {
+      "date": 1686909672523,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-16-error.log",
+      "hash": "d5fcaca879e61fef8d108bc9027209c161a8ea1f17450b31a88da6c2a2e92624"
+    },
+    {
+      "date": 1686919396871,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-18-error.log",
+      "hash": "0ca00a84073fc30bcd892d92e48a941fe68ce3074804d7f978674cbd03e9d275"
+    },
+    {
+      "date": 1686921835158,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-19-error.log",
+      "hash": "3247cd1471f54ed41289f5efa72458eddd792574448707bb391fd7814d9b61aa"
+    },
+    {
+      "date": 1686927506439,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-20-error.log",
+      "hash": "53101609d9ae24834ec04482a1032ac5aed8cec0baa71323d59a0a34ccf9a8f2"
+    },
+    {
+      "date": 1686927983637,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-16-21-error.log",
+      "hash": "2b3f2546f49feeb55072f9e744b52be6f9aac3c7ae71e1ce07426645b8748af1"
+    },
+    {
+      "date": 1686939439982,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-00-error.log",
+      "hash": "76b3b17639888737ae4679c2e76bc698857043fd84e7c5c25c024879a351b03a"
+    },
+    {
+      "date": 1686942045126,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-01-error.log",
+      "hash": "feb520e40df176cc5b1f761644c195faae8510686b68c0cf49bf95b327efea27"
+    },
+    {
+      "date": 1686981081983,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-11-error.log",
+      "hash": "72c51b17307d6fd035c6c70d21d2b51360b24f4d4ed31b9be95b4e2f52b40f0d"
+    },
+    {
+      "date": 1686981885446,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-12-error.log",
+      "hash": "2edf4bcb5efea467d758ac48823e60a8ecdbc0b5c44fb9a4542f10551f095c20"
+    },
+    {
+      "date": 1686985441865,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-13-error.log",
+      "hash": "a17cf029fdc13f3d2009dbb1c61ea214e478a406c56055dd70a6f427b03a2f74"
+    },
+    {
+      "date": 1686991744465,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-14-error.log",
+      "hash": "ccc3bce8217690e88d18f14f5847b88833874a26f35fc6789e8b31a9ce3ce9c2"
+    },
+    {
+      "date": 1686992605940,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-15-error.log",
+      "hash": "f0910f09beef8daea91378aa4ac647356db98e7e4367e149723d03bd141b229a"
+    },
+    {
+      "date": 1687015589354,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-21-error.log",
+      "hash": "47ea44c895737ebafbc3b12c636eba92fb3304b15bd8b19f1873057cbc66fdda"
+    },
+    {
+      "date": 1687017999844,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-17-22-error.log",
+      "hash": "850867a0db3a1d35c4071f6ddc535b03d32fa86401a9d9737e633755d9f4b769"
+    },
+    {
+      "date": 1687068479073,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-18-12-error.log",
+      "hash": "a6b0f6c526e5422c92a5c3ab6f2156c70e740aee17acb6b78f395d810740ffb4"
+    },
+    {
+      "date": 1687071617509,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-18-13-error.log",
+      "hash": "4113c7ab7a8cd34f90a1d2dfe620460a59b5195c49038da59543bc02fbfc5d65"
+    },
+    {
+      "date": 1687094396388,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-18-19-error.log",
+      "hash": "c53fad079f296348a58106132f8dd3ef09f3788183224f1c077ada92eba8ba36"
+    },
+    {
+      "date": 1687165357356,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-19-15-error.log",
+      "hash": "a850de4ff70d63db43659c8b58cbbf37beb751f37fc2b22bea534f356993822b"
+    },
+    {
+      "date": 1687169077487,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-19-16-error.log",
+      "hash": "4a7e44ca71bd0fdf968af9e6b5382c26f005a0f90eae7798a27659a020710890"
+    },
+    {
+      "date": 1687180049762,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-19-19-error.log",
+      "hash": "53c583511a2236c17b86ed4623b8f4594527b2372b092976ce096302e0b0a1d7"
+    },
+    {
+      "date": 1687317338300,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-21-09-error.log",
+      "hash": "b016347f0d881762027c37c1c46b80ea7d7b622610afcf1cdf894a806bd3dc30"
+    },
+    {
+      "date": 1687321041546,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-21-10-error.log",
+      "hash": "c1fe9c52ef9f055b8f9b5f69954a033c5e08af7000b7db4f3560599556781f48"
+    },
+    {
+      "date": 1687341804801,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-21-16-error.log",
+      "hash": "aefe4bbee83c58be45543771cbbbfb2e5e1a35f8d3cfd6d13914b99edb6d0df4"
+    },
+    {
+      "date": 1687354371027,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-21-19-error.log",
+      "hash": "96bf4da5d32d61e84ae101d126c267a35f845342b69b20863784f2b43c304dde"
+    },
+    {
+      "date": 1687356540363,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-21-20-error.log",
+      "hash": "b822d2cafab7fed12c6d9acd13eceb301f8c532856d9c63d4794da85d8cd00b8"
+    },
+    {
+      "date": 1687492680501,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-23-09-error.log",
+      "hash": "037c38b7a8b271c19f953686deb65b397814426540475c1b6da143e0779af921"
+    },
+    {
+      "date": 1687492913711,
+      "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-23-10-error.log",
+      "hash": "0e32ca72b194bc4872e2605b13c94f6c9cfe4876b6155f4f0a4361441d2910aa"
+    }
+  ],
+  "hashType": "sha256"
 }

@@ -1,0 +1,51 @@
+{ level: 'error', label: 'PH', timestamp: '2023-06-18T07:01:18.352Z' }
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T07:02:42.016Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T07:04:38.457Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T07:05:30.081Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T07:07:48.345Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { email: 1 },
+  keyValue: { email: 'sishahin093@gmail.com' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-18T07:13:28.752Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

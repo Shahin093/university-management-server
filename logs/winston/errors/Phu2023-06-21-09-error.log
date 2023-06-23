@@ -1,0 +1,92 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T03:16:59.455Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T03:18:34.989Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. querySrv EREFUSED _mongodb._tcp.cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: querySrv EREFUSED _mongodb._tcp.cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T03:20:02.682Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T03:21:50.369Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T03:22:59.141Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  errors: {
+    id: ValidatorError: Path `id` is required.
+        at validate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `id` is required.',
+        type: 'required',
+        path: 'id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'Student validation failed',
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T03:24:17.340Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T03:42:52.578Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

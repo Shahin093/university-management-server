@@ -1,0 +1,51 @@
+{
+  ok: 0,
+  code: 51108,
+  codeName: 'Location51108',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1686737541, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64("s9ATspgXDKLgXlmu5vpxXJHEtk0=", 0),
+      keyId: new Long("7180298511244591106")
+    }
+  },
+  operationTime: new Timestamp({ t: 1686737541, i: 1 }),
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-14T10:12:47.570Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 51108,
+  codeName: 'Location51108',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1686737585, i: 9 }),
+    signature: {
+      hash: Binary.createFromBase64("RDDxd55rLxxsHYwrge2oQni1Zr4=", 0),
+      keyId: new Long("7180298511244591106")
+    }
+  },
+  operationTime: new Timestamp({ t: 1686737585, i: 9 }),
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-14T10:14:05.445Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 51108,
+  codeName: 'Location51108',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1686737803, i: 5 }),
+    signature: {
+      hash: Binary.createFromBase64("wIrEldHb4C/fREkGKOKXPLP/+CM=", 0),
+      keyId: new Long("7180298511244591106")
+    }
+  },
+  operationTime: new Timestamp({ t: 1686737803, i: 5 }),
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-14T10:17:35.170Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

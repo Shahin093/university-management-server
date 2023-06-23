@@ -1,0 +1,1427 @@
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88518585,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88518574,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88518899,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:05:00.536Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88613867,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88613857,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88614161,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:06:35.872Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88877944,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88877942,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 88878186,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:10:59.907Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89101521,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89101519,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89101765,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:14:43.449Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89185077,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89185079,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89185316,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:16:07.048Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89275561,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89275555,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89275558,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:17:37.758Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89421404,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89421402,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89421693,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:20:03.340Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89469930,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89469933,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89469932,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:20:52.154Z'
+}
+{
+  message: "Falled to connect database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-00.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89560894,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.126.155.22:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.126.155.22:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.126.155.22',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-01.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89560896,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.180.9:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.180.9:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.180.9',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017' => ServerDescription {
+        address: 'cluster-fasion-shard-00-02.4ijhi.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 89561109,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 13.233.15.36:27017
+            at connectionFailureError (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:510:26)
+            at TLSSocket.emit (node:events:390:28)
+            at emitErrorNT (node:internal/streams/destroy:157:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+            at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+          cause: Error: connect ETIMEDOUT 13.233.15.36:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '13.233.15.36',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-2j927q-shard-0',
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'error',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
+    '    at _handleConnectionErrors (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:792:11)\n' +
+    '    at NativeConnection.openUri (C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\node_modules\\mongoose\\lib\\connection.js:767:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:22:22.804Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:26:02.360Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:31:03.509Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:32:16.371Z'
+}
+{
+  errno: undefined,
+  code: 'EREFUSED',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt EREFUSED cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt EREFUSED cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:38:47.279Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-16T04:36:11.520Z'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T04:39:26.199Z'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T04:39:53.947Z'
+}
+{
+  stringValue: '"648995e285253245040054f"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '648995e285253245040054f',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T04:49:12.029Z'
+}
+{
+  stringValue: '"648995e285253245040054f"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '648995e285253245040054f',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T04:53:12.356Z'
+}
+{
+  stringValue: '"648995e285253245040054f"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '648995e285253245040054f',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T04:56:22.957Z'
+}

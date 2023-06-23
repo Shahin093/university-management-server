@@ -1,0 +1,60 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T14:13:19.211Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T14:18:16.556Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T14:20:27.951Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T14:26:27.071Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-21T14:29:07.365Z'
+}

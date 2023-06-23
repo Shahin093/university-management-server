@@ -1,0 +1,10 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T10:32:28.176Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

@@ -1,0 +1,24 @@
+{
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. querySrv ECONNREFUSED _mongodb._tcp.cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: querySrv ECONNREFUSED _mongodb._tcp.cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-13T13:58:35.084Z'
+}
+{
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. querySrv ECONNREFUSED _mongodb._tcp.cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: querySrv ECONNREFUSED _mongodb._tcp.cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-13T13:58:59.663Z'
+}

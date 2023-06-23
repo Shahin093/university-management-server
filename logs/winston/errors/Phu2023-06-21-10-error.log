@@ -1,0 +1,145 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:21:41.269Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:24:40.257Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: '01826664116' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:25:19.458Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  stringValue: '"648cad0a1b687175a59e5f6"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '648cad0a1b687175a59e5f6',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOne (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2497:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicDepartment },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:37:50.834Z'
+}
+{
+  stringValue: `"{ _id: '648ca79eee5d962ceda29b2' }"`,
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: { _id: '648ca79eee5d962ceda29b2' },
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:20:14)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:290:34)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'Object',
+  model: Model { AcademicDepartment },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:39:21.285Z'
+}
+{
+  stringValue: `"{ _id: '648ca79eee5d962ceda29b2' }"`,
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: { _id: '648ca79eee5d962ceda29b2' },
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:20:14)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:290:34)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'Object',
+  model: Model { AcademicDepartment },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:40:39.219Z'
+}
+{
+  stringValue: `"{ _id: '648ca79eee5d962ceda29b2' }"`,
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: { _id: '648ca79eee5d962ceda29b2' },
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:20:14)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:290:34)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'Object',
+  model: Model { AcademicDepartment },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:41:30.715Z'
+}
+{
+  stringValue: '"648c7d5b227d2a0709c4a24"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: '648c7d5b227d2a0709c4a24',
+  path: '_id',
+  reason: BSONError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new ObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\bson\src\objectid.ts:88:15)
+      at castObjectId (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1204:12)
+      at ObjectId.SchemaType.castForQuery (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\schematype.js:1616:15)
+      at cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\cast.js:348:32)
+      at model.Query.Query.cast (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4874:12)
+      at model.Query.Query._castConditions (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:2210:10)
+      at model.Query._findOneAndUpdate (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:3284:8)
+      at model.Query.exec (C:\Next-level-journey-2023\Mission3 Be a NoSQL Backend Braniac\university-management-auth-server-originalSide\node_modules\mongoose\lib\query.js:4404:28),
+  valueType: 'string',
+  model: Model { AcademicFaculty },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-21T04:45:20.111Z'
+}

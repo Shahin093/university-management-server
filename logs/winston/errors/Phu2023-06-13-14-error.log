@@ -1,0 +1,48 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-13T08:25:06.245Z'
+}
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'queryTxt',
+  hostname: 'cluster-fasion.4ijhi.mongodb.net',
+  level: 'error',
+  message: 'Falled to connect database. queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net',
+  stack: 'Error: queryTxt ETIMEOUT cluster-fasion.4ijhi.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)',
+  label: 'PH',
+  timestamp: '2023-06-13T08:31:09.371Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T08:39:06.429Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T08:46:47.885Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T08:57:53.575Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-13T08:59:35.410Z'
+}

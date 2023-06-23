@@ -1,0 +1,10 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Faculty OF EngEngineering' },
+  level: 'error',
+  label: 'PH',
+  timestamp: '2023-06-16T18:39:47.171Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
