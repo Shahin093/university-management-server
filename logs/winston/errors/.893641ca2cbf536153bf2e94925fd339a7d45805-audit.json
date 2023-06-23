@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\.893641ca2cbf536153bf2e94925fd339a7d45805-audit.json",
+    "files": [
+        {
+            "date": 1686068753226,
+            "name": "C:\\Next-level-journey-2023\\Mission3 Be a NoSQL Backend Braniac\\university-management-auth-server-originalSide\\logs\\winston\\errors\\Phu2023-06-06-22-error.log",
+            "hash": "f8574c81b4735ccd087cf48e739cdae2a90731ea8e601aafef968c49eb24a1bd"
+        }
+    ],
+    "hashType": "sha256"
+}
