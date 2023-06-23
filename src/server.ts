@@ -5,25 +5,25 @@ import { logger, errorLogger } from './shared/logger';
 import { Server } from 'http';
 
 process.on('uncaughtException', error => {
-  errorLogger.error(error);
+  errorconsole.log(error);
   process.exit(1);
 });
 let server: Server;
 async function database() {
   try {
     await mongoose.connect(config.database_url as string);
-    logger.info(' Database is Connected Successfully');
+    console.log(' Database is Connected Successfully');
     server = app.listen(config.port, () => {
-      logger.info(`App Listening on port ${config.port}`);
+      console.log(`App Listening on port ${config.port}`);
     });
   } catch (error) {
-    errorLogger.error(`Falled to connect database.`, error);
+    errorconsole.log(`Falled to connect database.`, error);
   }
 
   process.on('unhandledRejection', error => {
     if (server) {
       server.close(() => {
-        errorLogger.error(error);
+        errorconsole.log(error);
         process.exit(1);
       });
     } else {
@@ -34,7 +34,7 @@ async function database() {
 database();
 
 process.on('SIGTERM', () => {
-  logger.info('SIGTERM is receive');
+  console.log('SIGTERM is receive');
   if (server) {
     server.close();
   }

@@ -20,7 +20,7 @@ import handleCastError from '../../../../errors/handleCastError';
 // ) => {
 //   config.env === 'development'
 //     ? console.log(' GlobalErrorHandler ', error)
-//     : errorLogger.error('GlobalErrorHandler ', error);
+//     : errorconsole.log('GlobalErrorHandler ', error);
 
 //   let statusCode = 500;
 //   let message = 'Something went wrong!';
@@ -79,7 +79,7 @@ const globalErrorHandler: ErrorRequestHandler = (
 ) => {
   config.env === 'development'
     ? console.log(`🐱‍🏍 globalErrorHandler ~~`, { error })
-    : errorLogger.error(`🐱‍🏍 globalErrorHandler ~~`, error);
+    : errorconsole.log(`🐱‍🏍 globalErrorHandler ~~`, error);
 
   let statusCode = 500;
   let message = 'Something went wrong !';
