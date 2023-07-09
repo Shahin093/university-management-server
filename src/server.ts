@@ -5,7 +5,7 @@ import { logger, errorLogger } from './shared/logger';
 import { Server } from 'http';
 
 process.on('uncaughtException', error => {
-  errorconsole.log(error);
+  console.log(error);
   process.exit(1);
 });
 let server: Server;
@@ -17,13 +17,13 @@ async function database() {
       console.log(`App Listening on port ${config.port}`);
     });
   } catch (error) {
-    errorconsole.log(`Falled to connect database.`, error);
+    console.log(`Falled to connect database.`, error);
   }
 
   process.on('unhandledRejection', error => {
     if (server) {
       server.close(() => {
-        errorconsole.log(error);
+        console.log(error);
         process.exit(1);
       });
     } else {

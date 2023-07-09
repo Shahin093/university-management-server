@@ -10,4 +10,10 @@ router.post(
   UserController.createStudent
 );
 
+router.post(
+  '/create-faculty',
+  zodValidateRequest(UserZodValidation.createFacultyZodSchema),
+  UserController.createFaculty
+);
+
 export const UserRoutes = router;
