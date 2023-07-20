@@ -16,87 +16,7 @@ import { IFaculty } from '../faculty/faculty.interface';
 import { Faculty } from '../faculty/faculty.model';
 import { IAdmin } from '../admin/admin.interface';
 import { Admin } from '../admin/admin.model';
-
-// const createStudent = async (
-//   student: IStudent,
-//   user: IUser
-// ): Promise<IUser | null> => {
-//   // auto generated incremental ID
-//   // const id = await generateFacultyId();
-//   // // console.log(user)
-//   // user.id = id;
-//   // default password
-//   if (!user?.password) {
-//     user.password = config.default_student_pass as string;
-//   }
-
-//   // set role
-//   user.role = 'student';
-
-//   const academicSemester = await AcademicSemester.findById(
-//     student.academicSemester
-//   );
-
-//   // new user data
-//   let newUserAllData = null;
-
-//   // session start
-//   const session = await mongoose.startSession();
-//   try {
-//     session.startTransaction();
-
-//     // Generate student ID
-//     const id = await generatedStudentId(academicSemester);
-//     user.id = id;
-//     student.id = id;
-
-//     const newStudent = await Student.create([student], { session });
-
-//     if (!newStudent.length) {
-//       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create Student.');
-//     }
-
-//     // set student --->  _id into user.
-//     user.student = newStudent[0]._id;
-
-//     const newUser = await User.create([user], { session });
-
-//     if (!newUser.length) {
-//       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create user.');
-//     }
-
-//     newUserAllData = newUser[0];
-
-//     // commit Transaction
-//     await session.commitTransaction();
-
-//     // end session
-//     await session.endSession();
-//   } catch (error) {
-//     await session.abortTransaction();
-//     await session.endSession();
-
-//     throw error;
-//   }
-
-//   if (newUserAllData) {
-//     newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
-//       path: 'student',
-//       populate: [
-//         {
-//           path: 'academicSemester',
-//         },
-//         {
-//           path: 'academicDepartment',
-//         },
-//         {
-//           path: 'academicFaculty',
-//         },
-//       ],
-//     });
-//   }
-//   return newUserAllData;
-// };
+import bcrypt from 'bcrypt';
 
 const createStudent = async (
   student: IStudent,
@@ -106,6 +26,7 @@ const createStudent = async (
   if (!user.password) {
     user.password = config.default_student_pass as string;
   }
+
   // set role
   user.role = 'student';
 
